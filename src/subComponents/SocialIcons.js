@@ -32,13 +32,14 @@ const SocialIcons = (props) => {
   return (
     <Icons>
       <motion.div
-        initial={{scale:0 }}
+        initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1 }}
       >
         <a
           style={{ color: "inherit" }}
           target="_blank"
+          rel="noreferrer"  // Security improvement
           href={"https://github.com/codebucks27"}
         >
           <Github
@@ -49,13 +50,14 @@ const SocialIcons = (props) => {
         </a>
       </motion.div>
       <motion.div
-        initial={{scale:0 }}
+        initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.2 }}
       >
         <a
           style={{ color: "inherit" }}
           target="_blank"
+          rel="noreferrer"  // Security improvement
           href={"https://twitter.com/code_bucks"}
         >
           <Twitter
@@ -66,13 +68,14 @@ const SocialIcons = (props) => {
         </a>
       </motion.div>
       <motion.div
-        initial={{scale:0 }}
+        initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.4 }}
       >
         <a
           style={{ color: "inherit" }}
           target="_blank"
+          rel="noreferrer"  // Security improvement
           href={"https://facebook.com/codebucks27"}
         >
           <Facebook
@@ -83,13 +86,14 @@ const SocialIcons = (props) => {
         </a>
       </motion.div>
       <motion.div
-        initial={{scale:0 }}
+        initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.6 }}
       >
         <a
           style={{ color: "inherit" }}
           target="_blank"
+          rel="noreferrer"  // Security improvement
           href={"https://youtube.com"}
         >
           <YouTube
